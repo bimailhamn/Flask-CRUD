@@ -11,7 +11,7 @@ app.config['MYSQL_USER'] = 'root'
 app.config['MYSQL_DB'] = 'nexin'
 mysql = CRUD(app)
 
-
+#endpoint register
 @app.route("/register", methods=['GET','POST'])
 def register():
     if 'email' in session:
