@@ -2,6 +2,7 @@ from flask import Flask,render_template,url_for, redirect, request, session, fla
 from database import CRUD
 import json
 
+#inisiasi object app
 app = Flask(__name__)
 app.secret_key = "asdfghjkl12345fdsa_fdsakld8rweodfds"
 
